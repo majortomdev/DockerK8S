@@ -1,0 +1,24 @@
+eksctl create cluster --name aws-eks-cluster --region eu-west-1 --nodegroup-name eks-cluster-node --node-type t3.medium --nodes 1
+
+
+
+kubectl apply -f .
+
+kubectl get pods
+
+docker rmi ba8983e6e2b5 365270f5b545 db389c2b4f45 384cfb8e0b56 5643d64e81de 58ee39c0d882 9ed275c85047
+
+
+
+
+docker build -t pybmi .
+docker build -t nodehello . 
+
+
+docker run -p 3000:3000 b1bf34fa977a7cac0024a4f6e4e3cb6d95eb353b8da6453d3c6234594f617c11
+docker run -i -t de6cf07d87306731b68d8f36935748da9e9d09e42de3813995b84785fede386f
+
+
+
+
+
